@@ -7,8 +7,8 @@ const About = () => {
       <BreadCrumbs />
       <div className="site-section border-bottom" data-aos="fade">
         <div className="container">
-        <div class="site-section-heading pt-3 mb-4">
-              <h2 class="text-black">Members</h2>
+        <div className="site-section-heading pt-3 mb-4">
+              <h2 className="text-black">Members</h2>
             </div>
           <div className="row">
             <div className="col-md-6 col-lg-3">

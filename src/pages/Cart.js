@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import BreadCrumbs from '../components/BreadCrumbs'
+import ProductCart from '../components/ProductCart'
 
 const Cart = () => {
   return (
@@ -23,53 +24,8 @@ const Cart = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <td className="product-thumbnail">
-                        <img src="images/cloth_1.jpg" alt="" className="img-fluid" />
-                      </td>
-                      <td className="product-name">
-                        <h2 className="h5 text-black">Top Up T-Shirt</h2>
-                      </td>
-                      <td>$49.00</td>
-                      <td>
-                        <div className="input-group mb-3" style={{ maxWidth: 120 }}>
-                          <div className="input-group-prepend">
-                            <button className="btn btn-outline-primary js-btn-minus" type="button">-</button>
-                          </div>
-                          <input type="text" className="form-control text-center" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" />
-                          <div className="input-group-append">
-                            <button className="btn btn-outline-primary js-btn-plus" type="button">+</button>
-                          </div>
-                        </div>
-
-                      </td>
-                      <td>$49.00</td>
-                      <td><a href="!#" className="btn btn-primary btn-sm">X</a></td>
-                    </tr>
-
-                    <tr>
-                      <td className="product-thumbnail">
-                        <img src="images/cloth_2.jpg" alt="" className="img-fluid" />
-                      </td>
-                      <td className="product-name">
-                        <h2 className="h5 text-black">Polo Shirt</h2>
-                      </td>
-                      <td>$49.00</td>
-                      <td>
-                        <div className="input-group mb-3" style={{ maxWidth: 120 }}>
-                          <div className="input-group-prepend">
-                            <button className="btn btn-outline-primary js-btn-minus" type="button">-</button>
-                          </div>
-                          <input type="text" className="form-control text-center" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" />
-                          <div className="input-group-append">
-                            <button className="btn btn-outline-primary js-btn-plus" type="button">+</button>
-                          </div>
-                        </div>
-
-                      </td>
-                      <td>$49.00</td>
-                      <td><a href="!#" className="btn btn-primary btn-sm">X</a></td>
-                    </tr>
+                    <ProductCart/>
+                    <ProductCart/>
                   </tbody>
                 </table>
               </div>
